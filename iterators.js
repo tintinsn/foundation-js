@@ -6,11 +6,11 @@ const prices = [10, 15, 20, 25, 33,44,55];
 
 // Map
 
-// const newPrices = prices.map((price) => {
-//   return price * 1.1;
-// });
+const newPrices = prices.map((price) => {
+  return price * 1.1;
+});
 
-// console.log(newPrices);
+console.log(newPrices);
 
 
 // Filter Method
@@ -23,8 +23,8 @@ const prices = [10, 15, 20, 25, 33,44,55];
 
 // Reduce 
 
-const sumPrice = prices.reduce((preVal, price) => {
-  return preVal + price;
-})
+// const sumPrice = prices.reduce((preVal, price) => {
+//   return preVal + price;
+// })
 
-console.log('Sum Price: ', sumPrice)
+// console.log('Sum Price: ', sumPrice)
