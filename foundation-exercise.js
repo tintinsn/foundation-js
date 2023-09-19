@@ -338,7 +338,21 @@
 
 // * maxNegMinPos(arr) takes in an array arr, and it prints the max negative value (maxNeg) as well as the min positive value (minPos)
 
-const arr = [12, -13, 14, 4, 2, -1, -18];
-const maxNegMinPos = (arr) => {};
+// const arr = [12, -13, 14, 4, 2, 6, -1, -18, 6];
 
-console.log(maxNegMinPos(arr));
+// const maxNegMinPos = (arr) => {
+//   const pos = []; // create variable in order to receive only positive number
+//   const neg = []; // create variable in order to receive only negative number
+
+//   //   loop in array(arr) to filter negative and positive number
+//   for (let i = 0; i < arr.length; i++) {
+//     arr[i] > 0 ? pos.push(arr[i]) : neg.push(arr[i]);
+//   }
+
+//   //   sort element in arrat in order to find min and max
+//   const minPos = pos.sort((a, b) => a - b); //sort from min to max
+//   const maxNeg = neg.sort((a, b) => b - a); //sort from max to min
+//   console.log(`MinPos is  ${minPos[0]} \nMaxNeg is ${maxNeg[0]}`);
+// };
+
+// maxNegMinPos(arr);
